@@ -59,7 +59,7 @@ security:
       loadBalanced: true
       user-info-uri: http://auth-service/user
       prefer-token-info: false
-      service-id: pig-gateway
+      service-id: gateway
 #加密参数
 jasypt:
   encryptor:
@@ -72,7 +72,7 @@ filter:
       - /auth/**
       
 server:
-  port: 9999
+  port: 9090
   
 logging:
   config: classpath:logback.xml

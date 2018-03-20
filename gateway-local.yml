@@ -7,11 +7,6 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: lengleng
-    password: lengleng
     
 hystrix:
   command:
